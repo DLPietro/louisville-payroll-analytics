@@ -122,12 +122,12 @@ louisville-payroll-analytics/
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| **Database** | PostgreSQL (local) or SQL Server | Store & query salary data |
-| **Language** | SQL (T-SQL / PL/pgSQL) | Query writing & analysis |
-| **Data Cleaning** | Python (Pandas) or SQL | CSV → structured data |
+| **Database** | PostgreSQL (local) | Store & query salary data |
+| **Language** | SQL | Query writing & analysis |
+| **Data Cleaning** | SQL | CSV for structured data |
 | **Visualization** | Power BI / Tableau Public | Dashboard & reporting |
 | **Version Control** | Git + GitHub | Code management |
-| **IDE** | DBeaver, VS Code, pgAdmin | Development |
+| **IDE** | DBeaver | Development |
 
 ---
 
