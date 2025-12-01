@@ -44,7 +44,7 @@ Louisville Metro publishes **6,000+ employee records annually** across police, f
 **Source:** [Louisville Metro HR Salary Data (data.gov)](https://catalog.data.gov/dataset/louisville-metro-ky-employee-salary-data-6cc9e)
 
 **Data Coverage:**
-- **Time Range:** 2020–2024 (5 years of historical data)
+- **Time Range:** 2020-2024 (5 years of historical data)
 - **Records:** +6,000 employees per year
 - **Total Volume:** 40,000+ salary records available
 - **Updates:** Annually (new fiscal year data released mid-year)
@@ -146,48 +146,51 @@ The results the dataset are available as below here:
 ```
 Rank | Name               | Department | Job Title              | YTD Total
 -----|-------------------|------------|------------------------|----------
-1    | John Anderson     | Police     | Police Chief           | $178,500
-2    | Sarah Johnson     | Fire       | Fire Chief             | $165,200
-3    | Michael Chen      | Police     | Deputy Chief (Ops)     | $142,800
-4    | Lisa Rodriguez    | Fire       | Deputy Chief (Admin)   | $138,900
-5    | James Williams    | Police     | Deputy Chief (Inv)     | $135,600
-6    | Patricia Brown    | Public Works | Director              | $128,900
-7    | Robert Martinez   | Parks      | Parks Director         | $125,400
-8    | Jennifer Davis    | HR         | HR Director            | $118,900
-9    | David Thompson    | Finance    | Finance Director       | $115,600
-10   | Maria Garcia      | Police     | Police Major (Traffic) | $112,300
+1    | Jenkins, Todd Barry     | Police     | Police Sergeant           | $294,733.23
+2    | Gwinn Villaroel, Jacquelyn   | Police       | Police Chief             | $250,020.14
+3    | Suttles, Larry D      | Police     | Police Lieutenant     | $227,722.19
+4    | Fenwick, Paul E    | Police       | Police Officer   | $224,404.49
+5    | Humphrey, Paul Louis    | Police     | Police Chief     | $224,238.46
+6    | Ernst, Eric Michael    | Police | Police Officer              | $215,252.32
+7    | Maloney, Daniel K   | Zoo      | Director         | $205,341.35
+8    | Burns, Michael F    | Police         | Police Sergeant            | $205,185.79
+9    | Phan, Luke Phuc    | Police    | Police Lieutenant       | $204,947.42
+10   | Neal, Paul Eugene      | Police     | Police Sergeant | $203,114.46
 ```
 
 ### Department Payroll Summary (2024)
 ```
 Department           | Employees | Total Payroll | Avg Salary | Overtime % of Total
 --------------------|-----------|---------------|------------|-------------------
-Police               | 840       | $68,420,000   | $81,450    | 18%
-Fire & Rescue        | 620       | $52,100,000   | $84,000    | 22%
-Public Works         | 450       | $28,950,000   | $64,333    | 12%
-Parks & Recreation   | 380       | $19,240,000   | $50,632    | 8%
-Human Resources      | 120       | $8,640,000    | $72,000    | 3%
-Finance              | 95        | $7,125,000    | $75,000    | 2%
-Other Depts          | 495       | $33,075,000   | $66,818    | 15%
+Police               | 1342       | $23,552,285.59   | $81,450    | 18%
+Fire & Rescue        | 481       | $14,399,849.73   | $84,000    | 22%
+Department of Corrections         | 478       | $6,592,518.46   | $64,333    | 12%
+Emergency Medical Services   | 178       | $3,767,895.82   | $50,632    | 8%
+Public Works & Assets      | 439       | $2,608,760.13    | $72,000    | 3%
+Emergency Management Agency MetroSafe              | 172        | $2,201,792.19    | $75,000    | 2%
+Codes & Regulations          | 140       | $423,070,94   | $66,818    | 15%
 --------------------|-----------|---------------|------------|-------------------
-TOTAL                | 3,000     | $217,550,000  | $72,517    | 15.2%
+TOTAL                | 7,327     | $55,301,219.87  | $142,533.37    | 15.2%
 ```
 
 ### Year-over-Year Trends
 ```
 Year | Employees | Avg Annual Rate | Avg YTD Total | Overtime as % of Gross
------|-----------|-----------------|---------------|----------------------
-2020 | 2,890     | $68,500         | $71,200       | 12%
-2021 | 2,920     | $69,800         | $73,100       | 14%
-2022 | 2,980     | $71,200         | $75,800       | 16%
-2023 | 3,010     | $72,100         | $77,900       | 17%
-2024 | 3,050     | $73,500         | $80,100       | 18%
+-----|-----------|---------------|-----------------|----------------------
+2020 | 6,488     | $49,901.70       | $51,351.88 | 12,16%
+2021 | 6,674     | $49,557.03       | $50,726.15 | 11.63%
+2022 | 6,731     | $57,961.03       | $51,673.63 | 11.84%
+2023 | 6,988     | $55,220.26       | $59,058.15 | 13.10%
+2024 | 7,327     | $57,776.48       | $60,602.82 | 13.06%
+2025 (Temporaly) | 7,108     | $55,910.99       | $63.849.13 | 13.06%
 
-Insights:
-→ Headcount stable (+5.5% over 4 years)
-→ Base salaries rising ~2% annually
-→ Overtime accelerating (12% → 18%)
-→ Question: Staffing shortage? Mandatory coverage?
+**Insights**
+
+> Headcount stable (+5.5% over 4 years)
+> Base salaries rising ~2% annually
+> Increasing Overtime (12% - 13%)
+> Question: Staffing shortage, mandatory coverage?
+
 ```
 
 ---
@@ -208,9 +211,9 @@ Basically **owning a project from design to delivery**, not just write queries.
 
 | Finding | Value | Implication |
 |---------|-------|-------------|
-| **Total Payroll** | $217.55M | Annual cost to city |
-| **Avg Salary** | $72,517 | Public sector avg (USA avg: $68,000) |
-| **Overtime %** | 18.2% | $39.5M of payroll is overtime |
+| **Total Payroll** | $55M | Annual cost to city |
+| **Avg Salary** | $60,602.82 | Public sector avg (USA avg: $68,000) |
+| **Overtime %** | 13.06% | $39.5M of payroll is overtime |
 | **Top 10% earn** | 28% of total payroll | High concentration |
 | **Dept with most OT** | Fire (22% of gross) | Operational necessity? |
 | **Pay variance (same job)** | 15–35% range | Equity concern? |
