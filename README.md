@@ -12,7 +12,7 @@ This project works the **complete payroll analytics workflow** using Louisville 
 
 ## 📊 What this is
 
-Louisville Metro publishes **6,000+ employee records annually** across police, fire, parks, HR, and 15+ departments. Each record contains:
+Louisville Metro publishes **6,000+ employee records annually** across police, fire, parks, HR, and 30+ departments. Each record contains:
 
 - Annual salary (salary budget vs. actual earnings)
 - Overtime (who's working the extra shifts?)
@@ -55,11 +55,11 @@ Police, Fire & Rescue, Parks & Recreation, Public Works, Human Resources, Financ
 **Key Metrics Per Employee:**
 | Metric | Range | Interpretation |
 |--------|-------|-----------------|
-| Annual Rate | $25,000–$180,000 | Contracted annual salary |
-| Regular Rate | $20,000–$140,000 | Actual base earnings (may be less if leave taken) |
-| Overtime Rate | $0–$50,000 | Extra compensation for hours worked beyond normal |
-| Allowances | $0–$15,000 | Uniform stipends, hazard pay, call-out bonuses |
-| YTD Total | $25,000–$200,000 | Total gross compensation for year |
+| Annual Rate | $25,000 - $180,000 | Contracted annual salary |
+| Regular Rate | $20,000 - $140,000 | Actual base earnings (may be less if leave taken) |
+| Overtime Rate | $0 - $50,000 | Extra compensation for hours worked beyond normal |
+| Allowances | $0 - $15,000 | Uniform stipends, hazard pay, call-out bonuses |
+| YTD Total | $25,000 - $200,000 | Total gross compensation for year |
 
 **Example:** A police officer with Annual Rate $60,000 might have:
 - Regular Rate: $58,000 (few days of leave)
@@ -143,6 +143,7 @@ The results the dataset are available as below here:
 
 
 ### Top 10 Earners (2024)
+
 ```
 Rank | Name               | Department | Job Title              | YTD Total
 -----|-------------------|------------|------------------------|----------
@@ -156,6 +157,7 @@ Rank | Name               | Department | Job Title              | YTD Total
 8    | Burns, Michael F    | Police         | Police Sergeant            | $205,185.79
 9    | Phan, Luke Phuc    | Police    | Police Lieutenant       | $204,947.42
 10   | Neal, Paul Eugene      | Police     | Police Sergeant | $203,114.46
+
 ```
 
 ### Department Payroll Summary (2024)
@@ -171,9 +173,11 @@ Emergency Management Agency MetroSafe              | 172        | $2,201,792.19 
 Codes & Regulations          | 140       | $423,070,94   | $66,818    | 15%
 --------------------|-----------|---------------|------------|-------------------
 TOTAL                | 7,327     | $55,301,219.87  | $142,533.37    | 15.2%
+
 ```
 
 ### Year-over-Year Trends
+
 ```
 Year | Employees | Avg Annual Rate | Avg YTD Total | Overtime as % of Gross
 -----|-----------|---------------|-----------------|----------------------
@@ -184,14 +188,14 @@ Year | Employees | Avg Annual Rate | Avg YTD Total | Overtime as % of Gross
 2024 | 7,327     | $57,776.48       | $60,602.82 | 13.06%
 2025 (Temporaly) | 7,108     | $55,910.99       | $63.849.13 | 13.06%
 
+```
+
 **Insights**
 
 > Headcount stable (+5.5% over 4 years)
 > Base salaries rising ~2% annually
 > Increasing Overtime (12% - 13%)
 > Question: Staffing shortage, mandatory coverage?
-
-```
 
 ---
 
